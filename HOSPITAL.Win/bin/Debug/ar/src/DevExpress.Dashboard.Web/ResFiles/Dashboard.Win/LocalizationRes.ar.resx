@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"></xsd:import>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"></xsd:attribute>
+              <xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"></xsd:attribute>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"></xsd:attribute>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"></xsd:attribute>
+              <xsd:attribute ref="xml:space"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"></xsd:element>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"></xsd:attribute>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DashboardWinStringId.RankOrderAscending" xml:space="preserve">
+    <value>ترتيب تصاعدي</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontBold" xml:space="preserve">
+    <value>غامق</value>
+  </data>
+  <data name="DashboardWinStringId.WeightedLegendGalleryGroupCaption" xml:space="preserve">
+    <value>موقف</value>
+  </data>
+  <data name="DashboardWinStringId.CalculationTypeNone" xml:space="preserve">
+    <value>لا شيء</value>
+  </data>
+  <data name="DashboardWinStringId.CalculatedFieldTypeDateTime" xml:space="preserve">
+    <value>التاريخ والوقت</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatMonth" xml:space="preserve">
+    <value>في الشهر</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupScatterChartLabelsCaption" xml:space="preserve">
+    <value>تسميات</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitAutoCaption" xml:space="preserve">
+    <value>صناعة السيارات</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatFullCaption" xml:space="preserve">
+    <value>كامل</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsArgumentCaption" xml:space="preserve">
+    <value>الوسيطة</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateFormatDefaultCaption" xml:space="preserve">
+    <value>الافتراضي</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalSecond" xml:space="preserve">
+    <value>الثانية</value>
+  </data>
+  <data name="DashboardWinStringId.DifferenceCalculationTargetPrevious" xml:space="preserve">
+    <value>السابقة</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatDefaultCaption" xml:space="preserve">
+    <value>الافتراضي</value>
+  </data>
+  <data name="DashboardWinStringId.RankOrderDescending" xml:space="preserve">
+    <value>تنازلي</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleStyleAppearance" xml:space="preserve">
+    <value>مظهر</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatYearFormatFullCaption" xml:space="preserve">
+    <value>كامل</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatSecond" xml:space="preserve">
+    <value>الثانية</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeGeneralCaption" xml:space="preserve">
+    <value>العام</value>
+  </data>
+  <data name="DashboardWinStringId.PivotCalculationAlongColumns" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalDay" xml:space="preserve">
+    <value>يوم</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleAboveBelowAverage" xml:space="preserve">
+    <value>متوسط</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeArea" xml:space="preserve">
+    <value>المنطقة</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupPieLabelsCaption" xml:space="preserve">
+    <value>تسميات</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionPercentValueType" xml:space="preserve">
+    <value>في المائة</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsNoneCaption" xml:space="preserve">
+    <value>لا شيء</value>
+  </data>
+  <data name="DashboardWinStringId.RedoText" xml:space="preserve">
+    <value>الإعادة</value>
+  </data>
+  <data name="DashboardWinStringId.ChartCalculationAlongArguments" xml:space="preserve">
+    <value>الحجج</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatQuarterFormatDefaultCaption" xml:space="preserve">
+    <value>الافتراضي</value>
+  </data>
+  <data name="DashboardWinStringId.CommandUndoCaption" xml:space="preserve">
+    <value>التراجع عن</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeLine" xml:space="preserve">
+    <value>خط</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceNone" xml:space="preserve">
+    <value>لا شيء</value>
+  </data>
+  <data name="DashboardWinStringId.DifferenceCalculationTargetNext" xml:space="preserve">
+    <value>التالية</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatNumericCaption" xml:space="preserve">
+    <value>رقمي</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontItalic" xml:space="preserve">
+    <value>مائل</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceYellow" xml:space="preserve">
+    <value>أصفر</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardFormatConditionPercentValue" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceCustom" xml:space="preserve">
+    <value>مخصص</value>
+  </data>
+  <data name="DashboardWinStringId.CommandInsertGeoPointMapCaption" xml:space="preserve">
+    <value>خريطة النقطة الجغرافية</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileLabelsValueCaption" xml:space="preserve">
+    <value>قيمة</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleValue" xml:space="preserve">
+    <value>قيمة</value>
+  </data>
+  <data name="DashboardWinStringId.CardCalculationAlongCards" xml:space="preserve">
+    <value>بطاقات</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatQuarterFormatFullCaption" xml:space="preserve">
+    <value>كامل</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatNumericCaption" xml:space="preserve">
+    <value>رقمي</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatFullCaption" xml:space="preserve">
+    <value>كامل</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGaugeStyleCaption" xml:space="preserve">
+    <value>نمط</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelsDataLabelsArgumentCaption" xml:space="preserve">
+    <value>الوسيطة</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBetween" xml:space="preserve">
+    <value>بين</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileTooltipsNoneCaption" xml:space="preserve">
+    <value>لا شيء</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatMonthFormatDefaultCaption" xml:space="preserve">
+    <value>الافتراضي</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDashboardParametersCaption" xml:space="preserve">
+    <value>المعلمات</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGridLayoutCaption" xml:space="preserve">
+    <value>تخطيط</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageImageOptionsCaption" xml:space="preserve">
+    <value>الخيارات</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypePercentCaption" xml:space="preserve">
+    <value>في المائة</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalMonth" xml:space="preserve">
+    <value>في الشهر</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartSeriesTypeCaption" xml:space="preserve">
+    <value>نوع السلسلة</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontUnderline" xml:space="preserve">
+    <value>تسطير</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBar" xml:space="preserve">
+    <value>بار</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDayOfWeekFormatDefaultCaption" xml:space="preserve">
+    <value>الافتراضي</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonPageTextBoxFormatCaption" xml:space="preserve">
+    <value>تنسيق</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleApplyTo" xml:space="preserve">
+    <value>تطبيق على</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatYearFormatDefaultCaption" xml:space="preserve">
+    <value>الافتراضي</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileTooltipsArgumentCaption" xml:space="preserve">
+    <value>الوسيطة</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatQuarterFormatNumericCaption" xml:space="preserve">
+    <value>رقمي</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatDay" xml:space="preserve">
+    <value>يوم</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaThresholdTypePercent" xml:space="preserve">
+    <value>في المائة</value>
+  </data>
+  <data name="DashboardWinStringId.RangeFilterCalculationAlongArgument" xml:space="preserve">
+    <value>الوسيطة</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreemapTileTooltipsValueCaption" xml:space="preserve">
+    <value>قيمة</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeBar" xml:space="preserve">
+    <value>بار</value>
+  </data>
+  <data name="DashboardWinStringId.CardRowDataElementTypeTitleCaption" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupChartLegendPositionCaption" xml:space="preserve">
+    <value>أسطورة</value>
+  </data>
+  <data name="DashboardWinStringId.CardLayoutTemplateNoneCaption" xml:space="preserve">
+    <value>لا شيء</value>
+  </data>
+  <data name="DashboardWinStringId.DifferenceCalculationTargetLast" xml:space="preserve">
+    <value>الأخير</value>
+  </data>
+  <data name="DashboardWinStringId.CardLayoutTemplateCustomCaption" xml:space="preserve">
+    <value>مخصص</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelPositionOutsideCaption" xml:space="preserve">
+    <value>في الخارج</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieLabelPositionInsideCaption" xml:space="preserve">
+    <value>داخل</value>
+  </data>
+  <data name="DashboardWinStringId.CardRowDataElementTypeSparklineCaption" xml:space="preserve">
+    <value>خط المؤشر</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupContentArrangementCaption" xml:space="preserve">
+    <value>ترتيب المحتوى</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupMapLegendPositionCaption" xml:space="preserve">
+    <value>أسطورة اللون</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateFormatLongCaption" xml:space="preserve">
+    <value>طويلة</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateFormatShortCaption" xml:space="preserve">
+    <value>قصيرة</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatLongCaption" xml:space="preserve">
+    <value>طويلة</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatShortCaption" xml:space="preserve">
+    <value>قصيرة</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatDateTimeFormatTimeOnlyCaption" xml:space="preserve">
+    <value>الوقت فقط</value>
+  </data>
+  <data name="DashboardWinStringId.MenuDimensionSortBy" xml:space="preserve">
+    <value>فرز حسب</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeCurrencyCaption" xml:space="preserve">
+    <value>تحويل العملات</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeNumberCaption" xml:space="preserve">
+    <value>عدد</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatFormatTypeScientificCaption" xml:space="preserve">
+    <value>العلمي</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitBillionsCaption" xml:space="preserve">
+    <value>المليارات</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitMillionsCaption" xml:space="preserve">
+    <value>الملايين</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitOnesCaption" xml:space="preserve">
+    <value>منها</value>
+  </data>
+  <data name="DashboardWinStringId.NumericFormatUnitThousandsCaption" xml:space="preserve">
+    <value>الآلاف</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDrillDownCaption" xml:space="preserve">
+    <value>التنقل لأسفل</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGeoPointMapClusterizationCaption" xml:space="preserve">
+    <value>تمكين التجميع</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridBandedRowsCaption" xml:space="preserve">
+    <value>تجمعت الصفوف</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridColumnHeadersCaption" xml:space="preserve">
+    <value>رؤوس الأعمدة</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridHorizontalLinesCaption" xml:space="preserve">
+    <value>خطوط أفقية</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridMergeCellsCaption" xml:space="preserve">
+    <value>دمج الخلايا</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridVerticalLinesCaption" xml:space="preserve">
+    <value>خطوط عمودية</value>
+  </data>
+  <data name="DashboardWinStringId.CommandIgnoreMasterFiltersCaption" xml:space="preserve">
+    <value>تجاهل مرشحات ماجستير</value>
+  </data>
+  <data name="DashboardWinStringId.CommandShowCaptionCaption" xml:space="preserve">
+    <value>تظهر التسمية التوضيحية</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTextBoxEditTextCaption" xml:space="preserve">
+    <value>تحرير...</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartAddPaneCaption" xml:space="preserve">
+    <value>إضافة جزء</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToBubbleMapCaption" xml:space="preserve">
+    <value>مخطط فقاعي</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToChoroplethMapCaption" xml:space="preserve">
+    <value>خريطة تشوروبليث</value>
+  </data>
+  <data name="DashboardWinStringId.CommandConvertToPieMapCaption" xml:space="preserve">
+    <value>مخطط دائري</value>
+  </data>
+  <data name="DashboardWinStringId.CommandCrossDataSourceFilteringCaption" xml:space="preserve">
+    <value>تصفية الصليب-البيانات-مصدر</value>
+  </data>
+  <data name="DashboardWinStringId.MapShapeNoneAttribute" xml:space="preserve">
+    <value>لا شيء</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatQuarter" xml:space="preserve">
+    <value>الربع</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatYear" xml:space="preserve">
+    <value>السنة</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeFormatYearFormatAbbreviatedCaption" xml:space="preserve">
+    <value>يختصر</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeGreaterIsGoodCaption" xml:space="preserve">
+    <value>أكبر حسن</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeLessIsGoodCaption" xml:space="preserve">
+    <value>أقل من جيد</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeNoIndicationCaption" xml:space="preserve">
+    <value>لا توجد إشارة</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeWarningIfGreaterCaption" xml:space="preserve">
+    <value>تحذير إذا كان أكبر</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaIndicationModeWarningIfLessCaption" xml:space="preserve">
+    <value>تحذير إذا أقل</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaThresholdTypeAbsolute" xml:space="preserve">
+    <value>المطلقة</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaValueTypeAbsoluteVariationCaption" xml:space="preserve">
+    <value>التباين المطلق</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaValueTypeActualValueCaption" xml:space="preserve">
+    <value>القيمة الفعلية</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaValueTypePercentOfTargetCaption" xml:space="preserve">
+    <value>بالمئة من الهدف</value>
+  </data>
+  <data name="DashboardWinStringId.DeltaValueTypePercentVariationCaption" xml:space="preserve">
+    <value>نسبة التباين</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatMinute" xml:space="preserve">
+    <value>دقيقة</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChartShowLegendCaption" xml:space="preserve">
+    <value>إظهار وسيلة الإيضاح</value>
+  </data>
+  <data name="DashboardWinStringId.CommandChoroplethMapShapeLabelsAttributeCaption" xml:space="preserve">
+    <value>تسميات الشكل</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupGridColumnWidthModeCaption" xml:space="preserve">
+    <value>وضع عرض العمود</value>
+  </data>
+  <data name="DashboardWinStringId.RibbonGroupWeightedLegendPositionCaption" xml:space="preserve">
+    <value>مرجح أسطورة</value>
+  </data>
+  <data name="DashboardWinStringId.SparklineIndicationModeWinLoss" xml:space="preserve">
+    <value>فوز/خسارة</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortModeDisplayText" xml:space="preserve">
+    <value>(نص العرض)</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortModeID" xml:space="preserve">
+    <value>(ID)</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortModeKey" xml:space="preserve">
+    <value>(مفتاح)</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortModeValue" xml:space="preserve">
+    <value>(قيمة)</value>
+  </data>
+  <data name="DashboardWinStringId.CommandDimensionSortNone" xml:space="preserve">
+    <value>لا فرز</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridAutoFitToContentsColumnWidthModeCaption" xml:space="preserve">
+    <value>احتواء تلقائي للمحتويات</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridAutoFitToGridColumnWidthModeCaption" xml:space="preserve">
+    <value>احتواء تلقائي للشبكة</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridManualGridColumnWidthModeCaption" xml:space="preserve">
+    <value>دليل</value>
+  </data>
+  <data name="DashboardWinStringId.CommandGridWordWrapCaption" xml:space="preserve">
+    <value>التفاف</value>
+  </data>
+  <data name="DashboardWinStringId.CommandMapLockNavigationCaption" xml:space="preserve">
+    <value>تأمين الملاحة</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieMapIsWeightedCaption" xml:space="preserve">
+    <value>مرجح فطائر</value>
+  </data>
+  <data name="DashboardWinStringId.CommandPieShowCaptionsCaption" xml:space="preserve">
+    <value>إظهار التسميات التوضيحية دائري</value>
+  </data>
+  <data name="DashboardWinStringId.CommandTreeViewAutoExpandCaption" xml:space="preserve">
+    <value>توسيع تلقائي</value>
+  </data>
+  <data name="DashboardWinStringId.DashboardCurrencyUseCurrentCurrency" xml:space="preserve">
+    <value>إعدادات النظام العميل استخدام</value>
+  </data>
+  <data name="DashboardWinStringId.IntersectionLevelModeAll" xml:space="preserve">
+    <value>جميع المستويات</value>
+  </data>
+  <data name="DashboardWinStringId.IntersectionLevelModeAuto" xml:space="preserve">
+    <value>(تلقائي)</value>
+  </data>
+  <data name="DashboardWinStringId.IntersectionLevelModeFirst" xml:space="preserve">
+    <value>المستوى الأول</value>
+  </data>
+  <data name="DashboardWinStringId.IntersectionLevelModeLast" xml:space="preserve">
+    <value>المستوى الأخير</value>
+  </data>
+  <data name="DashboardWinStringId.IntersectionLevelModeSpecific" xml:space="preserve">
+    <value>مستوى معين</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionNumberValueType" xml:space="preserve">
+    <value>عدد</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleNotBetween" xml:space="preserve">
+    <value>ليس بين</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleNotBetweenOrEqual" xml:space="preserve">
+    <value>ليس بين أو يساوي</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleNotEqualTo" xml:space="preserve">
+    <value>لا يساوي</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleRange" xml:space="preserve">
+    <value>النطاق</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBetweenOrEqual" xml:space="preserve">
+    <value>بين أو يساوي</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleBottomN" xml:space="preserve">
+    <value>أسفل N</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleColorRangeBar" xml:space="preserve">
+    <value>شريط مجموعة الألوان</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleContains" xml:space="preserve">
+    <value>النص الذي يحتوي على</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleEqualTo" xml:space="preserve">
+    <value>يساوي</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleExpression" xml:space="preserve">
+    <value>التعبير</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleGradientRangeBar" xml:space="preserve">
+    <value>شريط التدرج النطاقات</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleGreaterThan" xml:space="preserve">
+    <value>أكبر من</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleGreaterThanOrEqualTo" xml:space="preserve">
+    <value>أكبر من أو يساوي</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleLessThan" xml:space="preserve">
+    <value>أقل</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleLessThanOrEqualTo" xml:space="preserve">
+    <value>أقل من أو يساوي</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleRangeSet" xml:space="preserve">
+    <value>تعيين نطاق</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleTopBottom" xml:space="preserve">
+    <value>من أعلى إلى أسفل</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceCyan" xml:space="preserve">
+    <value>سماوي</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontBlue" xml:space="preserve">
+    <value>الخط الأزرق</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontGrayed" xml:space="preserve">
+    <value>الخط الرمادي</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontGreen" xml:space="preserve">
+    <value>الخط الأخضر</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontRed" xml:space="preserve">
+    <value>الخط الأحمر</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceFontYellow" xml:space="preserve">
+    <value>الخط الأصفر</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGradientBlue" xml:space="preserve">
+    <value>أزرق متدرج</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleBlue" xml:space="preserve">
+    <value>أزرق شاحب</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleCyan" xml:space="preserve">
+    <value>أزرق شاحب</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleGray" xml:space="preserve">
+    <value>رمادي شاحب</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleGreen" xml:space="preserve">
+    <value>أخضر شاحب</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleOrange" xml:space="preserve">
+    <value>برتقالي شاحب</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePalePurple" xml:space="preserve">
+    <value>أرجواني شاحب</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleRed" xml:space="preserve">
+    <value>أحمر شاحب</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGradientGreen" xml:space="preserve">
+    <value>أخضر متدرج</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGray" xml:space="preserve">
+    <value>رمادي</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePurple" xml:space="preserve">
+    <value>أرجواني</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAutomaticValueType" xml:space="preserve">
+    <value>التلقائي</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleApplyToColumn" xml:space="preserve">
+    <value>تطبيق للعمود</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleApplyToRow" xml:space="preserve">
+    <value>تطبيق لصف</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleDrawAxis" xml:space="preserve">
+    <value>رسم المحور</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleNegativeStyle" xml:space="preserve">
+    <value>إعدادات الأنماط السلبية</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleShowBarOnly" xml:space="preserve">
+    <value>إظهار شريط فقط</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleStyle" xml:space="preserve">
+    <value>إعدادات النمط</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleStyleIcons" xml:space="preserve">
+    <value>الرموز</value>
+  </data>
+  <data name="DashboardWinStringId.DataSourceDataMember" xml:space="preserve">
+    <value>بيانات الأعضاء</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceRed" xml:space="preserve">
+    <value>الأحمر</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGreen" xml:space="preserve">
+    <value>الأخضر</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceOrange" xml:space="preserve">
+    <value>أورانج</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGradientOrange" xml:space="preserve">
+    <value>تدرج اللون البرتقالي</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGradientPurple" xml:space="preserve">
+    <value>التدرج الأرجواني</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGradientRed" xml:space="preserve">
+    <value>الأحمر التدرج</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGradientTransparent" xml:space="preserve">
+    <value>التدرج شفافة</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGradientYellow" xml:space="preserve">
+    <value>تدرج اللون الأصفر</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearancePaleYellow" xml:space="preserve">
+    <value>أصفر باهت</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceGradientCyan" xml:space="preserve">
+    <value>أزرق متدرج</value>
+  </data>
+  <data name="DashboardWinStringId.FormatConditionAppearanceBlue" xml:space="preserve">
+    <value>الأزرق</value>
+  </data>
+  <data name="DashboardWinStringId.ExactDateFormatHour" xml:space="preserve">
+    <value>مدار</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleRangeIcons" xml:space="preserve">
+    <value>النطاقات رمز</value>
+  </data>
+  <data name="DashboardWinStringId.CommandFormatRuleTopN" xml:space="preserve">
+    <value>أعلى ن</value>
+  </data>
+  <data name="DashboardWinStringId.CommandScatterChartPointLabelOptionsCaption" xml:space="preserve">
+    <value>تسميات نقطة</value>
+  </data>
+  <data name="DashboardWinStringId.FormatRuleAllowNegativeAxis" xml:space="preserve">
+    <value>المحور السلبي السماح</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalHour" xml:space="preserve">
+    <value>مدار</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalMinute" xml:space="preserve">
+    <value>دقيقة</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalQuarter" xml:space="preserve">
+    <value>الربع</value>
+  </data>
+  <data name="DashboardWinStringId.DateTimeIntervalYear" xml:space="preserve">
+    <value>السنة</value>
+  </data>
+  <data name="DashboardWinStringId.CalculationTypeExpression" xml:space="preserve">
+    <value>التعبير</value>
+  </data>
+</root>

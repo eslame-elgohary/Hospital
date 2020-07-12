@@ -12,7 +12,7 @@ Imports System.Collections.Generic
 Imports DevExpress.ExpressApp.Model
 Imports DevExpress.Persistent.BaseImpl
 Imports DevExpress.Persistent.Validation
-<DefaultClassOptions(), RuleCombinationOfPropertiesIsUnique("Code")>
+<DefaultClassOptions(), RuleCombinationOfPropertiesIsUnique("LabsName,TesterName", MessageTemplateCombinationOfPropertiesMustBeUnique:=" أسعار التحليل موجودة مسبقآ ")>
 Public Class PriceTester
     Inherits BaseObject
     Public Sub New(ByVal session As Session)
@@ -91,6 +91,6 @@ Public Class PriceTester
             SetPropertyValue(NameOf(TesterName), _testerName, Value)
         End Set
     End Property
-    
+
 
 End Class

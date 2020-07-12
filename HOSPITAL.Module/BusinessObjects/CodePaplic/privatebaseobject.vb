@@ -29,7 +29,7 @@ Public Class privatebaseobject ' Specify more UI options using a declarative app
             Me.Code = NewNumber()
         End If
     End Sub
-    Public Function NewNumber() As Integer
+    Public Overridable Function NewNumber() As Integer
         Try
             Dim n As Integer = (From lst As privatebaseobject In Session.GetObjects(Session.GetClassInfo(Me.GetType), Nothing, New SortingCollection(New SortProperty("Code", DB.SortingDirection.Descending)), 0, False, True)).Max(Function(a) a.Code)
             Return n + 1
@@ -41,7 +41,7 @@ Public Class privatebaseobject ' Specify more UI options using a declarative app
     Private _name As String
     Private _code As String
 
-    <Size(20), RuleRequiredField, Indexed, ModelDefault("AllowEdit", "False")>
+    <Size(20), RuleRequiredField, Indexed, ModelDefault("AllowEdit", "False"), ImmediatePostData>
     Property Code As String
         Get
             Return _code

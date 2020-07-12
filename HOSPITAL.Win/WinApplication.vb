@@ -9,22 +9,23 @@ Imports DevExpress.ExpressApp.Win.Utils
 Imports DevExpress.ExpressApp.Xpo
 Imports DevExpress.ExpressApp.Security
 Imports DevExpress.ExpressApp.Security.ClientServer
+Imports DevExpress.ExpressApp.Templates
 
 ' For more typical usage scenarios, be sure to check out https://documentation.devexpress.com/eXpressAppFramework/DevExpressExpressAppWinWinApplicationMembersTopicAll.aspx
 Partial Public Class HOSPITALWindowsFormsApplication
     Inherits WinApplication
 #Region "Default XAF configuration options (https://www.devexpress.com/kb=T501418)"
     Shared Sub New()
-		DevExpress.Persistent.Base.PasswordCryptographer.EnableRfc2898 = True
+        DevExpress.Persistent.Base.PasswordCryptographer.EnableRfc2898 = True
         DevExpress.Persistent.Base.PasswordCryptographer.SupportLegacySha512 = False
-		DevExpress.ExpressApp.Utils.ImageLoader.Instance.UseSvgImages = True
+        DevExpress.ExpressApp.Utils.ImageLoader.Instance.UseSvgImages = True
     End Sub
-	Private Sub InitializeDefaults()
+    Private Sub InitializeDefaults()
         LinkNewObjectToParentImmediately = False
         OptimizedControllersCreation = True
         UseLightStyle = True
-		SplashScreen = New DXSplashScreen(GetType(XafSplashScreen), New DefaultOverlayFormOptions())
-		ExecuteStartupLogicBeforeClosingLogonWindow = True
+        SplashScreen = New DXSplashScreen(GetType(XafSplashScreen), New DefaultOverlayFormOptions())
+        ExecuteStartupLogicBeforeClosingLogonWindow = True
     End Sub
 #End Region
     Public Sub New()
@@ -45,11 +46,11 @@ Partial Public Class HOSPITALWindowsFormsApplication
             e.Updater.Update()
             e.Handled = True
         Else
-            Dim message As String = "The application cannot connect to the specified database, " & _
-				"because the database doesn't exist, its version is older " & _
-				"than that of the application or its schema does not match " & _
-				"the ORM data model structure. To avoid this error, use one " & _
-				"of the solutions from the https://www.devexpress.com/kb=T367835 KB Article."
+            Dim message As String = "The application cannot connect to the specified database, " &
+                "because the database doesn't exist, its version is older " &
+                "than that of the application or its schema does not match " &
+                "the ORM data model structure. To avoid this error, use one " &
+                "of the solutions from the https://www.devexpress.com/kb=T367835 KB Article."
 
             If e.CompatibilityError IsNot Nothing AndAlso e.CompatibilityError.Exception IsNot Nothing Then
                 message &= Constants.vbCrLf & Constants.vbCrLf & "Inner exception: " & e.CompatibilityError.Exception.Message
@@ -59,9 +60,31 @@ Partial Public Class HOSPITALWindowsFormsApplication
 #End If
     End Sub
     Private Shared Sub HOSPITALWindowsFormsApplication_CustomizeLanguagesList(ByVal sender As Object, ByVal e As CustomizeLanguagesListEventArgs) Handles MyBase.CustomizeLanguagesList
-        Dim userLanguageName As String = System.Threading.Thread.CurrentThread.CurrentUICulture.Name
-        If userLanguageName <> "en-US" And e.Languages.IndexOf(userLanguageName) = -1 Then
-            e.Languages.Add(userLanguageName)
+        'Dim userLanguageName As String = System.Threading.Thread.CurrentThread.CurrentUICulture.Name
+        'If userLanguageName <> "en-US" And e.Languages.IndexOf(userLanguageName) = -1 Then
+        '    e.Languages.Add(userLanguageName)
+        'End If
+        If e.Languages.IndexOf("ar") = -1 Then
+            e.Languages.Add("ar")
         End If
     End Sub
+    Public Sub ApplyRightToLeft(f As System.Windows.Forms.Form)
+        If f IsNot Nothing Then
+            f.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+            f.RightToLeftLayout = True
+        End If
+    End Sub
+    Protected Overrides Sub OnCustomizeTemplate(frameTemplate As IFrameTemplate, templateContextName As String)
+        MyBase.OnCustomizeTemplate(frameTemplate, templateContextName)
+        If TryCast(frameTemplate, System.Windows.Forms.Form) IsNot Nothing Then
+            ApplyRightToLeft(CType(frameTemplate, System.Windows.Forms.Form))
+
+        End If
+    End Sub
+    Protected Overrides Function CreateModelEditorForm() As Form
+
+        Dim f As System.Windows.Forms.Form = MyBase.CreateModelEditorForm()
+        ApplyRightToLeft(f)
+        Return f
+    End Function
 End Class

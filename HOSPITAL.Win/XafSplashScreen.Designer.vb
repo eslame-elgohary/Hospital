@@ -62,6 +62,7 @@
         Me.pictureEdit1.Properties.ShowMenu = False
         Me.pictureEdit1.Size = New System.Drawing.Size(120, 20)
         Me.pictureEdit1.TabIndex = 13
+        Me.pictureEdit1.Visible = False
         '
         'labelControl1
         '

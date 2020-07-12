@@ -1,0 +1,259 @@
+27.06.20 16:29:48.652	================================================================================
+27.06.20 16:29:48.656	Trace Log for HOSPITAL.Win.exe is started
+27.06.20 16:29:48.656	================================================================================
+27.06.20 16:29:48.659	System Environment
+	OS Version: Microsoft Windows NT 6.1.7601 Service Pack 1
+	.Net Framework Versions: v2.0.50727, v4.0.30319
+	CLR Version: 4.0.30319.42000
+	eXpressApp Version: 18.2.7.0
+	eXpressApp File Version: 18.2.7.0
+
+Application config
+	Modules=
+	NewVersionServer=
+	EnableDiagnosticActions=False
+
+27.06.20 16:29:48.759	Initialize application
+=======================
+27.06.20 16:29:48.760		Command line arguments: 
+		D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\HOSPITAL.Win.exe
+27.06.20 16:29:48.896	The ValueManagerType is initialized by the default value: SimpleValueManager.
+27.06.20 16:29:48.900	Stack trace:
+   at DevExpress.Persistent.Base.ValueManager.CreateValueManager[ValueType](String key)
+   at DevExpress.Persistent.Base.ValueManager.GetValueManager[ValueType](String key)
+   at DevExpress.ExpressApp.ReportsV2.ApplicationReportObjectSpaceProvider.set_ContextApplication(XafApplication value)
+   at DevExpress.ExpressApp.ReportsV2.ReportsModuleV2.Setup(XafApplication application)
+   at DevExpress.ExpressApp.ModuleList.OnInsert(Int32 index, Object value)
+   at System.Collections.CollectionBase.System.Collections.IList.Add(Object value)
+   at DevExpress.ExpressApp.Utils.BindingListBase`1.Add(T item)
+   at HOSPITAL.Win.HOSPITALWindowsFormsApplication.InitializeComponent() in D:\KARMA\Hospital\HOSPITAL.Win\WinApplication.Designer.vb:line 81
+   at HOSPITAL.Win.HOSPITALWindowsFormsApplication..ctor() in D:\KARMA\Hospital\HOSPITAL.Win\WinApplication.vb:line 31
+   at HOSPITAL.Win.Program.Main(String[] arguments) in D:\KARMA\Hospital\HOSPITAL.Win\Program.vb:line 28
+
+27.06.20 16:29:50.166	--------------------------------------------------------------------------------
+							Initialize Modules Manager
+
+27.06.20 16:29:50.169	--------------------------------------------------------------------------------
+							
+
+27.06.20 16:29:50.181	--------------------------------------------------------------------------------
+Loaded assemblies
+	Anonymously Hosted DynamicMethods Assembly, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null, Location=InMemory Module
+	DevExpress.Data.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Data.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.Data.v18.2.dll
+	DevExpress.ExpressApp.CloneObject.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.CloneObject.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.CloneObject.v18.2.dll
+	DevExpress.ExpressApp.ConditionalAppearance.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ConditionalAppearance.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ConditionalAppearance.v18.2.dll
+	DevExpress.ExpressApp.FileAttachment.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.FileAttachment.Win.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.FileAttachment.Win.v18.2.dll
+	DevExpress.ExpressApp.Objects.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Objects.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Objects.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.v18.2.dll
+	DevExpress.ExpressApp.ReportsV2.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.ReportsV2.Win.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.ReportsV2.Win.v18.2.dll
+	DevExpress.ExpressApp.Security.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.v18.2.dll
+	DevExpress.ExpressApp.Security.Xpo.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Security.Xpo.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Security.Xpo.v18.2.dll
+	DevExpress.ExpressApp.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.v18.2.dll
+	DevExpress.ExpressApp.Validation.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.v18.2.dll
+	DevExpress.ExpressApp.Validation.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Validation.Win.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Validation.Win.v18.2.dll
+	DevExpress.ExpressApp.Win.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Win.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Win.v18.2.dll
+	DevExpress.ExpressApp.Xpo.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.ExpressApp.Xpo.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.ExpressApp.Xpo.v18.2.dll
+	DevExpress.Persistent.Base.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.Base.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.Persistent.Base.v18.2.dll
+	DevExpress.Persistent.BaseImpl.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Persistent.BaseImpl.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.Persistent.BaseImpl.v18.2.dll
+	DevExpress.Printing.v18.2.Core, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Printing.v18.2.Core\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.Printing.v18.2.Core.dll
+	DevExpress.Utils.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Utils.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.Utils.v18.2.dll
+	DevExpress.Xpo.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.Xpo.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.Xpo.v18.2.dll
+	DevExpress.XtraBars.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraBars.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.XtraBars.v18.2.dll
+	DevExpress.XtraEditors.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraEditors.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.XtraEditors.v18.2.dll
+	DevExpress.XtraReports.v18.2, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.dll
+	DevExpress.XtraReports.v18.2.Extensions, Version=18.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\DevExpress.XtraReports.v18.2.Extensions\v4.0_18.2.7.0__b88d1754d700e49a\DevExpress.XtraReports.v18.2.Extensions.dll
+	HOSPITAL.Module, Version=1.0.7483.29602, Culture=neutral, PublicKeyToken=null, Location=D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\HOSPITAL.Module.dll
+	HOSPITAL.Module.Win, Version=1.0.7483.29603, Culture=neutral, PublicKeyToken=null, Location=D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\HOSPITAL.Module.Win.dll
+	HOSPITAL.Win, Version=1.0.7483.29603, Culture=neutral, PublicKeyToken=null, Location=D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\HOSPITAL.Win.exe
+	Microsoft.VisualBasic, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualBasic\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualBasic.dll
+	mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll
+	System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll
+	System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll
+	System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll
+	System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll
+	System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll
+	System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll
+	System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll
+	System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, Location=C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll
+27.06.20 16:29:50.447	SetupModules
+27.06.20 16:29:50.772	Customize TypesInfo
+27.06.20 16:29:53.804		preferredLanguageName: (User language)
+								userLanguageName: en-US
+
+27.06.20 16:29:53.807		preferredLanguageName: (User language)
+								userFormattingCultureName: en-US
+								selectedFormattingCultureName: 
+
+27.06.20 16:29:53.810	Logon With Parameters
+27.06.20 16:29:53.816		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 04c5a25c-7ae8-498d-a859-07f180d38661
+								Category: Unspecified
+
+27.06.20 16:29:54.693	Generate default Model for Action containers
+27.06.20 16:29:56.918	--------------------------------------------------------------------------------
+							Execute action
+
+27.06.20 16:29:56.919		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: Logon
+								Category: PopupActions
+								Controller.Name: DevExpress.ExpressApp.LogonController
+								Context.Name: Log In
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters
+
+27.06.20 16:29:56.921	--------------------------------------------------------------------------------
+							Execute action
+
+27.06.20 16:29:56.921		Type: DevExpress.ExpressApp.Actions.PopupWindowShowAction
+								ID: 04c5a25c-7ae8-498d-a859-07f180d38661
+								Category: Unspecified
+
+27.06.20 16:29:57.006	--------------------------------------------------------------------------------
+							Start logon process
+
+27.06.20 16:29:57.009	--------------------------------------------------------------------------------
+							Checking Compatibility
+
+27.06.20 16:29:57.012		ConnectionString: Persist Security Info=True;User ID=sa;Pooling=false;Data Source=.\SQL2012;Initial Catalog=HOSPITAL2020;XpoDataStorePool=True;
+27.06.20 16:29:57.012		ConnectionString: 
+27.06.20 16:29:57.412	--------------------------------------------------------------------------------
+							Logon successful
+
+27.06.20 16:29:57.648		preferredLanguageName: ar-EG
+								userLanguageName: en-US
+
+27.06.20 16:29:57.655		preferredLanguageName: ar-EG
+								userFormattingCultureName: ar-EG
+								selectedFormattingCultureName: 
+
+27.06.20 16:29:57.655	--------------------------------------------------------------------------------
+							Logon completed
+
+27.06.20 16:29:57.761		startUpActions: 1
+27.06.20 16:29:57.793	--------------------------------------------------------------------------------
+							Initialize 'ShowNavigationItem' action items
+
+27.06.20 16:30:00.876	--------------------------------------------------------------------------------
+							Execute action
+
+27.06.20 16:30:00.876		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+27.06.20 16:30:00.878	Action 'ConfigureSkin' done
+27.06.20 16:30:00.933	--------------------------------------------------------------------------------
+							Execute action
+
+27.06.20 16:30:00.933		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ConfigureSkin
+								Category: Appearance
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.ConfigureSkinController
+
+27.06.20 16:30:00.933	Action 'ConfigureSkin' done
+27.06.20 16:30:00.934	--------------------------------------------------------------------------------
+							Execute action
+
+27.06.20 16:30:00.934		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: ShowNavigationItem
+								Category: ViewsNavigation
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ShowNavigationItemController
+
+27.06.20 16:30:00.935		SelectedItem: Pre Booking
+27.06.20 16:30:02.454	Action 'ShowNavigationItem' done
+27.06.20 16:30:03.159	Action '04c5a25c-7ae8-498d-a859-07f180d38661' done
+27.06.20 16:30:03.162	Window closing: Log In
+27.06.20 16:30:03.175	Action 'Logon' done
+27.06.20 16:30:03.176	Window closed: Log In
+27.06.20 16:30:03.261	Application startup done
+=========================
+27.06.20 16:30:03.261	Application running
+====================
+27.06.20 16:30:23.675	--------------------------------------------------------------------------------
+							Execute action
+
+27.06.20 16:30:23.678		Type: DevExpress.ExpressApp.Actions.SingleChoiceAction
+								ID: New
+								Category: ObjectsCreation
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinNewObjectViewController
+								Context.Name: Pre Booking
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: HOSPITAL.Module.PreBooking(80973c5f-c585-43a6-8936-70c552c0b748)
+
+27.06.20 16:30:23.678		SelectedItem: Pre Booking
+27.06.20 16:30:24.053	Action 'New' done
+27.06.20 16:30:27.365	--------------------------------------------------------------------------------
+							Execute action
+
+27.06.20 16:30:27.366		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Pationt
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: HOSPITAL.Module.Pationt(02b825bc-e980-4181-9cf9-6aebddbcca16)
+
+27.06.20 16:30:27.443	Action 'ListViewShowObject' done
+27.06.20 16:30:28.463	'Pationt' property editor: new value is 'HOSPITAL.Module.Pationt(02b825bc-e980-4181-9cf9-6aebddbcca16)'
+27.06.20 16:30:30.975	'DateReservation' property editor: new value is '27/06/2020 12:00:00 ص'
+27.06.20 16:30:32.618	--------------------------------------------------------------------------------
+							Execute action
+
+27.06.20 16:30:32.619		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Tkhasos
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: HOSPITAL.Module.Tkhasos(fed760de-4905-4670-9759-4134d2f208d0)
+
+27.06.20 16:30:32.686	'Tkhasos' property editor: new value is 'HOSPITAL.Module.Tkhasos(fed760de-4905-4670-9759-4134d2f208d0)'
+27.06.20 16:30:32.711	Action 'ListViewShowObject' done
+27.06.20 16:30:33.972	'Tkhasos' property editor: new value is 'HOSPITAL.Module.Tkhasos(fed760de-4905-4670-9759-4134d2f208d0)'
+27.06.20 16:30:35.498	--------------------------------------------------------------------------------
+							Execute action
+
+27.06.20 16:30:35.498		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: ListViewShowObject
+								Category: ListView
+								Controller.Name: DevExpress.ExpressApp.SystemModule.ListViewProcessCurrentObjectController
+								Context.Name: Doctors
+								Context.IsRoot: False
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: HOSPITAL.Module.Doctors(7801b7fc-6d7e-4963-a7c9-7eed92b90c04)
+
+27.06.20 16:30:35.564	'Doctors' property editor: new value is 'HOSPITAL.Module.Doctors(7801b7fc-6d7e-4963-a7c9-7eed92b90c04)'
+27.06.20 16:30:35.612	Action 'ListViewShowObject' done
+27.06.20 16:30:43.068	'Doctors' property editor: new value is 'HOSPITAL.Module.Doctors(7801b7fc-6d7e-4963-a7c9-7eed92b90c04)'
+27.06.20 16:30:43.068	--------------------------------------------------------------------------------
+							Execute action
+
+27.06.20 16:30:43.068		Type: DevExpress.ExpressApp.Actions.SimpleAction
+								ID: SaveAndClose
+								Category: Save
+								Controller.Name: DevExpress.ExpressApp.Win.SystemModule.WinModificationsController
+								Context.Name: Pre Booking
+								Context.IsRoot: True
+								Context.SelectedObjects.Count: 1
+								Context.CurrentObject: HOSPITAL.Module.PreBooking(b53cadba-43f7-4b9c-97bc-86baa57b94e9)
+
+27.06.20 16:30:43.258	Window closing: Pre Booking
+27.06.20 16:30:43.274	Window closed: Pre Booking
+27.06.20 16:30:43.347	Action 'SaveAndClose' done
+27.06.20 16:31:43.779	Window closing: Pre Booking
+27.06.20 16:31:43.781	Window closing: Pre Booking - Doctors Clinic
+27.06.20 16:31:43.818	Window closed: Pre Booking
+27.06.20 16:31:43.819	Window closed: Pre Booking - Doctors Clinic
+27.06.20 16:31:44.028	Save model changes
+===================
+27.06.20 16:31:44.110	Save model changes
+===================
+27.06.20 16:31:44.118	--------------------------------------------------------------------------------
+							Logoff completed
+
+27.06.20 16:31:44.120	Application stopping
+=====================

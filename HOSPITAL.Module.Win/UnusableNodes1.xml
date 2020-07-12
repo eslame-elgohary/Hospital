@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems Id="NavigationItems" StartupNavigationItem="PreBooking_ListView">
+    <Items Id="Items">
+      <Item Id="Default">
+        <Items Id="Items">
+          <Item Id="Drugs_ListView" Index="2" />
+          <Item Id="Goraat_ListView" Index="3" />
+          <Item Id="InfoHospital_ListView" Index="4" />
+          <Item Id="Khazina_ListView" Index="5" />
+          <Item Id="Labs_ListView" Index="6" />
+          <Item Id="Masroufat_ListView" Index="7" />
+          <Item Id="Pationt_ListView" Index="8" />
+          <Item Id="PreBooking_ListView" Index="9" />
+          <Item Id="PriceTester_ListView" Index="10" />
+          <Item Id="Tester_ListView" Index="11" />
+          <Item Id="Tkhasos_ListView" Index="12" Removed="True" />
+          <Item Id="LiDoctor" Index="13">
+            <Items Id="Items">
+              <Item Id="Doctors_ListView" Index="0" ObjectKey="" ViewId="Doctors_ListView" />
+              <Item Id="Tkhasos_ListView" Index="1" ObjectKey="" ViewId="Tkhasos_ListView" />
+            </Items>
+          </Item>
+          <Item Id="Doctors_ListView" Index="14" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Views Id="Views">
+    <DetailView Id="Doctors_DetailView">
+      <Layout Id="Layout">
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="28.784648187633262">
+            <LayoutGroup Id="Doctors" RelativeSize="99.259259259259252" Caption="Doctors">
+              <TabbedGroup Id="Item2" CaptionLocation="Top" Index="0" RelativeSize="100">
+                <LayoutGroup Id="Item1" ShowCaption="True" CaptionLocation="Top" Index="0" RelativeSize="100" Caption="Informations">
+                  <LayoutGroup Id="Auto97e9d1b1-2e4f-462d-8a0c-b15c753654cd" ShowCaption="False" Caption="" Direction="Horizontal" Index="0" RelativeSize="36.363636363636367">
+                    <LayoutItem Id="Code" ViewItem="Code" Index="0" RelativeSize="50" />
+                    <LayoutItem Id="Item5" Index="1" RelativeSize="50" />
+                  </LayoutGroup>
+                  <LayoutGroup Id="Autobb0fc1cc-4b96-413d-94b4-0f42eaa71ce3" ShowCaption="False" Caption="" Index="1" RelativeSize="63.636363636363633">
+                    <LayoutItem Id="Name" ViewItem="Name" Index="0" RelativeSize="42.857142857142854" />
+                    <LayoutGroup Id="Auto551ce3ea-813e-4919-ac31-f5414deb87a7" ShowCaption="False" Caption="" Direction="Horizontal" Index="1" RelativeSize="57.142857142857146">
+                      <LayoutItem Id="Phon" ViewItem="Phon" Index="0" RelativeSize="50" />
+                      <LayoutItem Id="Phon2" ViewItem="Phon2" Index="1" RelativeSize="50" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutGroup Id="Item3" ShowCaption="True" CaptionLocation="Top" Index="1" RelativeSize="100" Caption="Observation">
+                  <LayoutItem Id="Observation" ViewItem="Observation" Index="0" RelativeSize="100" />
+                </LayoutGroup>
+              </TabbedGroup>
+              <LayoutItem Id="Phon" Index="1" RelativeSize="28.91566265060241" Removed="True" />
+              <LayoutItem Id="Phon2" Index="2" RelativeSize="32.53012048192771" Removed="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="privatebaseobject" Caption="privatebaseobject" RelativeSize="0.7407407407407407" Direction="Horizontal">
+              <LayoutItem Id="Name" Index="0" RelativeSize="100" Removed="True" />
+              <LayoutItem Id="Code" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <TabbedGroup Id="Tabs" RelativeSize="71.215351812366734" Index="1">
+            <LayoutGroup Id="takhassousat" TextAlignMode="AlignWithChildren" RelativeSize="100">
+              <LayoutItem Id="takhassousat" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="Prices" TextAlignMode="AlignWithChildren" RelativeSize="100">
+              <LayoutItem Id="Prices" TextAlignMode="AutoSize" RelativeSize="100" />
+            </LayoutGroup>
+          </TabbedGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="37.739872068230277" Caption="Observation" Direction="Horizontal" Removed="True">
+            <LayoutItem Id="Observation" RelativeSize="100" Removed="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>

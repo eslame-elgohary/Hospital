@@ -1,2 +1,29 @@
-﻿<?xml version="1.0" ?>
-<Application />
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application PreferredLanguage="ar">
+  <ActionDesign>
+    <ActionToContainerMapping>
+      <ActionContainer Id="AddPationt" IsNewNode="True">
+        <ActionLink ActionId="AddPatientAction" IsNewNode="True" />
+      </ActionContainer>
+    </ActionToContainerMapping>
+  </ActionDesign>
+  <NavigationItems NavigationStyle="TreeList" ShowImages="True" DefaultChildItemsDisplayStyle="List" RootGroupsStyle="Standard" GenerateRelatedReportsGroup="False" StartupNavigationItem="" />
+  <Options EnableHtmlFormatting="True" UIType="TabbedMDI" FormStyle="Ribbon" />
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="18.2.7.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="18.2.7.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="18.2.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DashboardView Id="Welcome" AllowNew="False" AllowDelete="False" IsNewNode="True">
+      <Items IsNewNode="True">
+        <ActionContainerViewItem Id="AddPationt" ActionContainer="AddPationt" IsNewNode="True" />
+      </Items>
+      <Layout IsNewNode="True">
+        <LayoutGroup Id="Main" IsNewNode="True">
+          <LayoutItem Id="AddPationt" ViewItem="AddPationt" Index="0" IsNewNode="True" />
+        </LayoutGroup>
+      </Layout>
+    </DashboardView>
+  </Views>
+</Application>

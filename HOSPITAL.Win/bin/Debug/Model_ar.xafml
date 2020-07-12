@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application ProtectedContentText="01003587857 - 01112577838" Description="" Title="HOSPITAL">
+  <BOModel>
+    <Class Name="HOSPITAL.Module.Pationt">
+      <OwnMembers>
+        <Member Name="BirthDay" Caption="تاريخ الميلاد" />
+        <Member Name="Childerin" Caption="عدد الأطفال" />
+        <Member Name="Name2" Caption="أحد الأقارب" />
+        <Member Name="Opertion" Caption="عمليات سابقة" />
+        <Member Name="Phon" Caption="رقم الهاتف" />
+        <Member Name="Phon2" Caption="رقم الهاتف" />
+      </OwnMembers>
+    </Class>
+  </BOModel>
+  <NavigationItems NavigationCaption="القائمة الرئيسية">
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="CCreat" Caption="التكويدات">
+            <Items>
+              <Item Id="Pationt_ListView" Caption="أضافة مريض" />
+              <Item Id="LiDoctor" Caption="الأطباء / التخصصات">
+                <Items>
+                  <Item Id="Doctors_ListView" Caption="أضافة طبيب" />
+                  <Item Id="Tkhasos_ListView" Caption="التخصصات" />
+                </Items>
+              </Item>
+              <Item Id="li_labs" Caption="المعامل / التحاليل">
+                <Items>
+                  <Item Id="Labs_ListView" Caption="المعامل" />
+                  <Item Id="Tester_ListView" Caption="التحاليل" />
+                  <Item Id="PriceTester_ListView" Caption="أسعار التحاليل" />
+                </Items>
+              </Item>
+              <Item Id="Khazina_ListView" Caption="أضافة خزينة" />
+              <Item Id="Masroufat_ListView" Caption="المصروفات" />
+              <Item Id="li_drugs" Caption="الادوية / الجرعات">
+                <Items>
+                  <Item Id="Drugs_ListView" Caption="الأدوية" />
+                  <Item Id="Goraat_ListView" Caption="الجرعات" />
+                </Items>
+              </Item>
+              <Item Id="li_user" Caption="المستخدمين / الصلاحيات">
+                <Items>
+                  <Item Id="PermissionPolicyRole_ListView" Caption="الصلاحيات" />
+                  <Item Id="PermissionPolicyUser_ListView" Caption="المستخدمين" />
+                </Items>
+              </Item>
+            </Items>
+          </Item>
+          <Item Id="InfoHospital_ListView" Caption="معلومات المستشفي" />
+          <Item Id="PreBooking_ListView" Caption="الحجز" />
+          <Item Id="MyDetails" Caption="بياناتي" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Views>
+    <DetailView Id="AuthenticationStandardLogonParameters_DetailView">
+      <Items>
+        <StaticImage Id="LogonImage" Caption="LogonImage(4)" />
+        <StaticText Id="LogonText" Caption="LogonText(7)" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="RootGroup">
+            <LayoutGroup Id="ImageGroup" Caption="ImageGroup(3)" />
+            <LayoutGroup Id="EditorsGroup">
+              <LayoutGroup Id="Text" Caption="Text(6)">
+                <LabelItem Id="LabelItem1" Text="الكارما سوفت للبرمجيات" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Pationt_DetailView" Caption="أضافة مريض" CaptionColon=" :">
+      <Items>
+        <PropertyEditor Id="Code" Caption="رقم المريض" />
+        <PropertyEditor Id="Name" Caption="الأسم" />
+        <PropertyEditor Id="Observation" Caption="ملاحظات" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main">
+          <LayoutGroup Id="SimpleEditors">
+            <LayoutGroup Id="privatebaseobject" Caption="privatebaseobject" />
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" Caption="ملاحظات" />
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Pationt_ListView" Caption="أضافة مريض">
+      <Columns>
+        <ColumnInfo Id="Code" Caption="رقم المريض" />
+        <ColumnInfo Id="Observation" Caption="ملاحظات" />
+        <ColumnInfo Id="Name" Caption="الأسم" />
+      </Columns>
+    </ListView>
+    <ListView Id="Pationt_LookupListView" Caption="المرضي">
+      <Columns>
+        <ColumnInfo Id="Name" Caption="الأسم" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

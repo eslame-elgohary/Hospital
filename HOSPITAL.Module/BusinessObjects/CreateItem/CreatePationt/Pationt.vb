@@ -13,7 +13,7 @@ Imports DevExpress.ExpressApp.Model
 Imports DevExpress.Persistent.BaseImpl
 Imports DevExpress.Persistent.Validation
 
-<DefaultClassOptions(), RuleCombinationOfPropertiesIsUnique("Code")>
+<DefaultClassOptions(), RuleCombinationOfPropertiesIsUnique("Code"), DefaultProperty("Name")>
 Public Class Pationt
     Inherits privatebaseobject
     Public Sub New(ByVal session As Session)
@@ -24,24 +24,19 @@ Public Class Pationt
 
     End Sub
 
-
-    Private _types As String
     Private _childerin As String
     Private _opertion As String
     Private _phon2 As String
     Private _name2 As String
     Private _phon As String
 
-
-    <Size(SizeAttribute.DefaultStringMappingFieldSize)>
-    Property Types As String
-        Get
-            Return _types
-        End Get
-        Set(ByVal Value As String)
-            SetPropertyValue(NameOf(Types), _types, Value)
-        End Set
-    End Property
+    Public Enum typem
+        <XafDisplayName("أنثي")>
+        female
+        <XafDisplayName("ذكر")>
+        male
+    End Enum
+    Property typedoc As typem
     Property BirthDay As Date
 
     <Size(SizeAttribute.DefaultStringMappingFieldSize)>

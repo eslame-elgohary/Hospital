@@ -28,4 +28,10 @@ Public Class Tester
         End Get
     End Property
 
+    '<Association>
+    'Public ReadOnly Property AddMonyMaml() As XPCollection(Of AddMonyMaml)
+    '    Get
+    '        Return GetCollection(Of AddMonyMaml)(NameOf(AddMonyMaml))
+    '    End Get
+    'End Property
 End Class

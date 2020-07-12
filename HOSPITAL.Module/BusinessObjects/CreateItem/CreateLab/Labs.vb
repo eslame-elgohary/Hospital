@@ -27,4 +27,6 @@ Public Class Labs
             Return GetCollection(Of PriceTester)(NameOf(PriceTester))
         End Get
     End Property
+
+
 End Class

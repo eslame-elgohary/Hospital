@@ -12,7 +12,7 @@ Imports System.Collections.Generic
 Imports DevExpress.ExpressApp.Model
 Imports DevExpress.Persistent.BaseImpl
 Imports DevExpress.Persistent.Validation
-<DefaultClassOptions(), RuleCombinationOfPropertiesIsUnique("Code")>
+<DefaultClassOptions(), RuleCombinationOfPropertiesIsUnique("Code"), DefaultProperty("Name")>
 <ConditionalAppearance.Appearance("a1", "ViewItem", FontColor:="Red", Criteria:="CodeMoney.Money<=23", TargetItems:="CodeMoney")>
 Public Class Tkhasos
     Inherits privatebaseobject
@@ -35,6 +35,13 @@ Public Class Tkhasos
     '    End Set
     'End Property
 
+    <Association, DevExpress.Xpo.Aggregated, RuleRequiredField>
+    Public ReadOnly Property CodeMony() As XPCollection(Of Tarifa)
+        Get
+            Return GetCollection(Of Tarifa)(NameOf(CodeMony))
+        End Get
+    End Property
+
     <Association>
     Public ReadOnly Property Doctors() As XPCollection(Of Doctors)
         Get
@@ -42,11 +49,6 @@ Public Class Tkhasos
         End Get
     End Property
 
-    <Association>
-    Public ReadOnly Property CodeMony() As XPCollection(Of Tarifa)
-        Get
-            Return GetCollection(Of Tarifa)(NameOf(CodeMony))
-        End Get
-    End Property
+
 
 End Class

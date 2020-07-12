@@ -458,3 +458,40 @@ C:\Users\eslame elgohary\Desktop\Hospital-master\Hospital-master\HOSPITAL.Win\ob
 C:\Users\eslame elgohary\Desktop\Hospital-master\Hospital-master\HOSPITAL.Win\obj\Debug\HOSPITAL.Win.HOSPITALWindowsFormsApplication.resources
 C:\Users\eslame elgohary\Desktop\Hospital-master\Hospital-master\HOSPITAL.Win\obj\Debug\HOSPITAL.Win.XafSplashScreen.resources
 C:\Users\eslame elgohary\Desktop\Hospital-master\Hospital-master\HOSPITAL.Win\obj\Debug\HOSPITAL.Win.vbproj.GenerateResource.Cache
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\HOSPITAL.Module.Win.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.DataAccess.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.DataAccess.v18.2.UI.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.ExpressApp.CloneObject.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.ExpressApp.FileAttachment.Win.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.ExpressApp.Objects.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.ExpressApp.ReportsV2.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.ExpressApp.ReportsV2.Win.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.ExpressApp.Security.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.ExpressApp.Security.Xpo.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.ExpressApp.Validation.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.ExpressApp.Validation.Win.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.Printing.v18.2.Core.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.Data.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.ExpressApp.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.ExpressApp.Win.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.Persistent.Base.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.Utils.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.Utils.v18.2.UI.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.Xpo.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.XtraGrid.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.XtraBars.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.XtraEditors.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.XtraLayout.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.XtraNavBar.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.XtraReports.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.XtraReports.v18.2.Extensions.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.Diagram.v18.2.Core.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.XtraScheduler.v18.2.Core.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.XtraCharts.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.XtraGauges.v18.2.Core.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.PivotGrid.v18.2.Core.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.XtraCharts.v18.2.Wizard.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\DevExpress.XtraPivotGrid.v18.2.resources.dll
+D:\KARMA\Hospital\HOSPITAL.Win\obj\Debug\HOSPITAL.Win.exe.licenses
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\Model_ar.xafml
+D:\KARMA\Hospital\HOSPITAL.Win\bin\Debug\ar\HOSPITAL.Module.resources.dll

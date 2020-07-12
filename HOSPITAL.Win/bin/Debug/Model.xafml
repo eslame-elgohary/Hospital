@@ -1,7 +1,144 @@
-﻿<Application Logo="ExpressAppLogo">
-	<Options UIType="TabbedMDI" FormStyle="Ribbon" />
-	<NavigationItems NavigationStyle="Accordion" ShowImages="False" DefaultChildItemsDisplayStyle="List"/>
-	<Options ShowTabImage="False">
-		<LayoutManagerOptions EnableLayoutGroupImages="False" />
-	</Options>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Logo="ExpressAppLogo">
+  <BOModel>
+    <Class Name="HOSPITAL.Module.Doctors" ImageName="BOPosition_32x32" />
+  </BOModel>
+  <NavigationItems NavigationStyle="TreeList" ShowImages="True" DefaultChildItemsDisplayStyle="List" RootGroupsStyle="Standard" GenerateRelatedReportsGroup="False" StartupNavigationItem="Welcome">
+    <Items>
+      <Item Id="Welcome" ViewId="Welcome" Index="0" IsNewNode="True" />
+      <Item Id="Default" Index="10">
+        <Items>
+          <Item Id="CCreat" Index="0" IsNewNode="True">
+            <Items IsNewNode="True">
+              <Item Id="Pationt_ListView" Index="0" ViewId="Pationt_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="LiDoctor" Index="2" IsNewNode="True">
+                <Items IsNewNode="True">
+                  <Item Id="Doctors_ListView" Index="0" ObjectKey="" ViewId="Doctors_ListView" IsNewNode="True" />
+                  <Item Id="Tkhasos_ListView" Index="1" ObjectKey="" ViewId="Tkhasos_ListView" IsNewNode="True" />
+                </Items>
+              </Item>
+              <Item Id="li_labs" Index="3" IsNewNode="True">
+                <Items IsNewNode="True">
+                  <Item Id="Labs_ListView" Index="0" ViewId="Labs_ListView" ObjectKey="" IsNewNode="True" />
+                  <Item Id="Tester_ListView" Index="1" ViewId="Tester_ListView" ObjectKey="" IsNewNode="True" />
+                  <Item Id="PriceTester_ListView" Index="2" ViewId="PriceTester_ListView" ObjectKey="" IsNewNode="True" />
+                </Items>
+              </Item>
+              <Item Id="Khazina_ListView" Index="4" ViewId="Khazina_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="Masroufat_ListView" Index="9" ViewId="Masroufat_ListView" ObjectKey="" IsNewNode="True" />
+              <Item Id="li_drugs" IsNewNode="True">
+                <Items IsNewNode="True">
+                  <Item Id="Drugs_ListView" Index="4" ViewId="Drugs_ListView" ObjectKey="" IsNewNode="True" />
+                  <Item Id="Goraat_ListView" Index="5" ViewId="Goraat_ListView" ObjectKey="" IsNewNode="True" />
+                </Items>
+              </Item>
+              <Item Id="li_user" IsNewNode="True">
+                <Items IsNewNode="True">
+                  <Item Id="PermissionPolicyRole_ListView" Index="14" ViewId="PermissionPolicyRole_ListView" ObjectKey="" IsNewNode="True" />
+                  <Item Id="PermissionPolicyUser_ListView" ViewId="PermissionPolicyUser_ListView" ObjectKey="" IsNewNode="True" />
+                </Items>
+              </Item>
+            </Items>
+          </Item>
+          <Item Id="InfoHospital_ListView" Index="1" ViewId="InfoHospital_ListView" ObjectKey="" IsNewNode="True" Removed="True" />
+          <Item Id="PreBooking_ListView" ViewId="PreBooking_ListView" ObjectKey="" Index="1" IsNewNode="True" Removed="True" />
+          <Item Id="Drugs_ListView" Index="4" Removed="True" />
+          <Item Id="Goraat_ListView" Index="5" Removed="True" />
+          <Item Id="Khazina_ListView" Index="7" Removed="True" />
+          <Item Id="Labs_ListView" Index="8" Removed="True" />
+          <Item Id="Masroufat_ListView" Index="9" Removed="True" />
+          <Item Id="Pationt_ListView" Index="10" Removed="True" />
+          <Item Id="PriceTester_ListView" Index="11" Removed="True" />
+          <Item Id="Tester_ListView" Index="12" Removed="True" />
+          <Item Id="MyDetails" ViewId="PermissionPolicyUser_DetailView" ObjectKey="@CurrentUserID" Caption="My Details" ImageName="BO_MyDetails" Index="13" IsNewNode="True" Removed="True" />
+          <Item Id="PermissionPolicyRole_ListView" Index="14" Removed="True" />
+          <Item Id="PermissionPolicyUser_ListView" Removed="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options UIType="TabbedMDI" FormStyle="Ribbon" ShowTabImage="True" Palette="Fire Brick">
+    <LayoutManagerOptions EnableLayoutGroupImages="False" GroupStyle="Inherited" CaptionVerticalAlignment="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionLocation="Default" />
+    <PrintingSettings PaperKind="A4" />
+    <RibbonOptions RibbonControlStyle="Office2019" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="18.2.7.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="18.2.7.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="18.2.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="AuthenticationStandardLogonParameters_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100">
+          <LayoutGroup Id="RootGroup" RelativeSize="100">
+            <LayoutGroup Id="ImageGroup" TextAlignMode="AlignWithChildren" RelativeSize="13.608562691131498">
+              <LayoutItem Id="LogonImage" RelativeSize="100" />
+            </LayoutGroup>
+            <LayoutGroup Id="EditorsGroup" RelativeSize="86.3914373088685">
+              <LayoutGroup Id="Text" RelativeSize="9.5744680851063837">
+                <LabelItem Id="LabelItem1" Index="0" RelativeSize="55.555555555555557" IsNewNode="True" />
+                <LayoutItem Id="LogonText" Index="1" RelativeSize="44.444444444444443" />
+              </LayoutGroup>
+              <LayoutGroup Id="Editors" RelativeSize="90.425531914893611">
+                <LayoutItem Id="UserName" Index="0" RelativeSize="6.3529411764705879" />
+                <LayoutItem Id="Password" Index="1" RelativeSize="93.6470588235294" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="Pationt_DetailView" CaptionLocation="Default" CaptionVerticalAlignment="Default" CaptionHorizontalAlignment="Default" GroupStyle="Card" TextAlignModeItem="UseParentOptions" EnableLayoutGroupImages="False">
+      <Layout>
+        <LayoutItem Id="Code" ViewItem="Code" Index="0" RelativeSize="8.5287846481876333" IsNewNode="True" />
+        <LayoutItem Id="Name" ViewItem="Name" Index="1" RelativeSize="6.8230277185501063" IsNewNode="True" />
+        <LayoutItem Id="BirthDay" ViewItem="BirthDay" Index="2" RelativeSize="5.11727078891258" IsNewNode="True" />
+        <LayoutItem Id="Types" ViewItem="Types" Index="3" RelativeSize="6.8230277185501063" IsNewNode="True" />
+        <LayoutItem Id="Phon" ViewItem="Phon" Index="4" RelativeSize="5.11727078891258" IsNewNode="True" />
+        <LayoutItem Id="Name2" ViewItem="Name2" Index="5" RelativeSize="6.8230277185501063" IsNewNode="True" />
+        <LayoutItem Id="Phon2" ViewItem="Phon2" Index="6" RelativeSize="6.8230277185501063" IsNewNode="True" />
+        <LayoutItem Id="Opertion" ViewItem="Opertion" Index="7" RelativeSize="5.11727078891258" IsNewNode="True" />
+        <LayoutItem Id="Childerin" ViewItem="Childerin" Index="8" RelativeSize="6.8230277185501063" IsNewNode="True" />
+        <LayoutItem Id="Observation" ViewItem="Observation" Index="9" RelativeSize="42.004264392324096" IsNewNode="True" />
+        <LayoutGroup Id="Main" RelativeSize="100" Direction="Horizontal" Removed="True">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100" Direction="Horizontal" Removed="True">
+            <LayoutGroup Id="privatebaseobject" RelativeSize="100" Index="0" Direction="Horizontal" Removed="True">
+              <LayoutItem Id="Name" RelativeSize="100" Index="0" Removed="True" />
+              <LayoutItem Id="Code" RelativeSize="51.612903225806448" Removed="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="Pationt" RelativeSize="76.377952755905511" Removed="True">
+              <LayoutGroup Id="Pationt_col1" RelativeSize="49.916805324459233">
+                <TabbedGroup Id="Item2" CaptionLocation="Top" Index="0" RelativeSize="100" IsNewNode="True">
+                  <LayoutGroup Id="Item1" ShowCaption="True" CaptionLocation="Top" Index="0" RelativeSize="100" IsNewNode="True">
+                    <LayoutItem Id="Types" ViewItem="Types" Index="0" RelativeSize="28.571428571428573" IsNewNode="True" />
+                    <LayoutItem Id="BirthDay" ViewItem="BirthDay" Index="1" RelativeSize="21.428571428571427" IsNewNode="True" />
+                    <LayoutItem Id="Phon" ViewItem="Phon" Index="2" RelativeSize="21.428571428571427" IsNewNode="True" />
+                    <LayoutItem Id="Name2" ViewItem="Name2" Index="3" RelativeSize="28.571428571428573" IsNewNode="True" />
+                  </LayoutGroup>
+                </TabbedGroup>
+                <LayoutItem Id="BirthDay" Removed="True" />
+                <LayoutItem Id="Name2" Removed="True" />
+                <LayoutItem Id="Phon" Removed="True" />
+                <LayoutItem Id="Types" Removed="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="Pationt_col2" RelativeSize="50.083194675540767">
+                <LayoutItem Id="Childerin" RelativeSize="65" />
+                <LayoutItem Id="Opertion" RelativeSize="15" />
+                <LayoutItem Id="Phon2" RelativeSize="20" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="SizeableEditors" RelativeSize="56.076759061833691" Direction="Horizontal" Removed="True">
+            <LayoutItem Id="Observation" RelativeSize="100" Removed="True" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="Pationt_ListView">
+      <Columns>
+        <ColumnInfo Id="Name" Width="359" />
+      </Columns>
+    </ListView>
+  </Views>
 </Application>
